@@ -1,0 +1,77 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# DuckDB database and temporary files
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+.duckdb/
+
+# Data directories: ignore all data files, keep README.md and .gitkeep
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/README.md
+!data/processed/.gitkeep
+
+data/external/*
+!data/external/README.md
+!data/external/.gitkeep
+
+# Generated outputs: ignore all generated files, keep README.md and .gitkeep
+outputs/tables/*
+!outputs/tables/README.md
+!outputs/tables/.gitkeep
+
+outputs/figures/*
+!outputs/figures/README.md
+!outputs/figures/.gitkeep
+
+outputs/presentation/*
+!outputs/presentation/README.md
+!outputs/presentation/.gitkeep
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
